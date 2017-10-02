@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+- '7'
+deploy:
+  provider: heroku
+  api_key:
+    secure: 4034ecbf-6b4e-4e6c-b9da-25dd8317084e
+  app: powerful-refuge-28836
